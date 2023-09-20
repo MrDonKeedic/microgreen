@@ -44,6 +44,11 @@ function createTable(divId, microgreenName) {
     cell42.id = `harvestDate-${divId}`;
     row4.appendChild(cell42);
 
+    // Apply CSS to style the table
+    table.style.margin = '0 auto'; // Center the table
+    table.style.borderCollapse = 'collapse'; // Optional: Style for border-collapse
+    //table.style.paddingTop = '100px';
+
     table.appendChild(row1);
     table.appendChild(row2);
     table.appendChild(row3);
